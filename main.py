@@ -295,7 +295,7 @@ def main() -> None:
                     + print_rules(context.chat_data["rules_user"] if "rules_user" in context.chat_data else default_rules)
                     + "\nYou can now enter new list of rules in json format. Each rule is represented as dict with the following keys:\n"
                     + "'warn': str - the message which will be sent as reply to toxic messages, you can use {score} to print the score of the message\n"
-                    + "'delete': (0|1) - whather bot will delete toxic messages or not\n"
+                    + "'delete': (0|1) - whether bot will delete toxic messages or not\n"
                     + "'mute_time': time(%Hh%Mm%Ss) - time for which author of toxic message will be muted\n"
                     + "'ban_time': time(%Hh%Mm%Ss) - time for which author of toxic message will be banned\n"
                     + "'reset_time': time(%Hh%Mm%Ss) - time after current rule for user will be reset to the first one",
@@ -304,7 +304,7 @@ def main() -> None:
                     + print_rules(context.chat_data["rules_admin"] if "rules_admin" in context.chat_data else default_rules)
                     + "\nYou can now enter new list of rules in json format. Each rule is represented as dict with the following keys:\n"
                     + "'warn': str - the message which will be sent as reply to toxic messages, you can use {score} to print the score of the message\n"
-                    + "'delete': (0|1) - whather bot will delete toxic messages or not\n"
+                    + "'delete': (0|1) - whether bot will delete toxic messages or not\n"
                     + "'mute_time': time(%Hh%Mm%Ss) - time for which author of toxic message will be muted\n"
                     + "'ban_time': time(%Hh%Mm%Ss) - time for which author of toxic message will be banned\n"
                     + "'reset_time': time(%Hh%Mm%Ss) - time after current rule for admin will be reset to the first one",
