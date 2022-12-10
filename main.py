@@ -273,7 +273,7 @@ def main() -> None:
     checker.load("./model")
     persistence = PicklePersistence("state")
     # Create the Updater and pass it your bot's token.
-    updater = Updater("5011312596:AAGF2Kkc4rFUM-K9Oql1i9nlprCm1HeothQ", persistence=persistence)
+    updater = Updater("<Your token>", persistence=persistence)
 
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
